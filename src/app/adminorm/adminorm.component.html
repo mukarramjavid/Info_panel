@@ -1,0 +1,12 @@
+<ng-container >
+    <div class="card">
+        <div class="card-body ">
+            <!-- In order to get value of textbox we use template reference -->
+            <input type="text" class="form-control" #inputName [placeholder]="placeHolderText"><br>
+            <small *ngIf="count">Total Counts: {{count}}</small>
+            <button class="btn float-right" [ngClass]="{'xustom_btn_class_admin': btnColor=='info',xustom_btn_class_user:btnColor=='dark'}" (click)="handleClick(inputName)">Add</button>
+        </div>
+    </div>
+
+
+</ng-container>

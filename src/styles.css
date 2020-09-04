@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,600;1,700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+}
+#container_fluid {
+  padding: 0;
+  margin: 0;
+}
+.xustom_btn_class_admin{
+    color: #17a2b8 !important;
+/* background-color: #17a2b8 !important; */
+border-color: #17a2b8 !important;
+}
+
+.xustom_btn_class_admin:hover{
+    color: #fff !important;
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+}
+
+.xustom_btn_class_user{
+    color: #343a40 !important;
+/* background-color: #17a2b8 !important; */
+border-color: #343a40 !important;
+}
+.xustom_btn_class_user:hover{
+    color: #fff !important;
+background-color: #343a40 !important;
+border-color: #343a40 !important;
+}
+@media screen and (max-width: 480px) {
+  .alert-dark,
+  .alert-danger,
+  .alert-primary {
+    font-size: 1.5rem;
+  }
+  .xustom_btn_class_admin {
+    width: 100%;
+    display: block;
+  }
+}
